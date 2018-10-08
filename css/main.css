@@ -1,0 +1,273 @@
+body,html{
+			list-style-type: none;
+			margin:0;
+		}
+		.top_header{
+			background-color:#013334;
+			width:100%;
+		}
+		.top_header ul li a{
+			color: white;
+		}
+		.left_top_header ul{
+			display: inline;
+			color:white;
+		}
+		.left_top_header li, .right_top_header li{
+			display: inline-block;
+			margin-right: 20px;
+		}
+		.left_top_header li a:hover{
+			transition: .7s ease;
+			color:#19BA5F;;
+		}
+		.right_top_header li{
+			float: right;
+		}
+		.right_top_header li i{
+			color: #19BA5F;
+		}
+		.btn-success{
+			background-color: white;
+			border: none;
+		}
+		.nav-link:hover{
+			color: white !important;
+		}
+		.search{
+			position: relative;
+		}
+		.search_button{
+			color: #013334;
+			position: absolute;
+			top: 0;
+		right: 10px;
+		height: 100%;
+		background-color: transparent;
+		border: none;
+		font-size: 20px;
+		}
+		.bottom_header{
+			height: 130px;
+			background-image: url("../img/bottom_header.jpg");
+		}
+		.right_bottom_header h3{
+			color: white;
+			margin-top:15px;
+			margin-right: 25px;
+		}
+		.right_bottom_header span{
+			color: #18BA61;
+		}
+		.article{
+			margin-top: 60px;
+		}
+		.article img{
+			width: 99%;
+		}
+		.article p{
+			color: #a7a7a7;
+		}
+		.about_us, .skills, .our_team, .main_footer{
+			margin-top: 50px;
+		}
+		.about_us img{
+			height: 100px;
+			width: 170px;
+		}
+		.about_us_header p{
+			font-weight: bold;
+			color: #18BA61;
+			display: inline;
+		}
+		.about_us_header span{
+			color: #a7a7a7;
+			font-size: 0.8em;
+		}
+		.about_us_header{
+			padding-left: 10%;
+		}
+		.about_us_bottom{
+			margin-top: 20px;
+			font-size: 0.8em;
+			border-left: 4px solid #18BA61;
+			background-color: #fafafa;
+		}
+		.about_us_bottom p{
+			color: #8c8c8c;
+			margin-left: 5px;
+			line-height: 20px;
+		}
+		.skills section{
+			margin-bottom: 15px;
+		}
+		.skills p{
+			font-size: 0.9em;
+		}
+		.bar{
+			height: 20px;
+		}
+		.html_css_bar div:first-child, .php_bar div:first-child, .wordpress_bar div:first-child, .ps_bar div:first-child, .ai_bar div:first-child{
+			border-radius: 4px 0px 0px 4px;
+		}
+		.html_css_bar div:nth-child(2), .php_bar div:nth-child(2), .wordpress_bar div:nth-child(2), .ps_bar div:nth-child(2), .ai_bar div:nth-child(2)
+		{
+			background-color: #E6E9EE;
+			border-radius: 0px 4px 4px 0px;
+		}
+		.skills_right{
+			margin-left: 15px;
+		}
+		.skills_right p{
+			font-size: 1.2em;
+			color: #a2a2a2;
+		}
+		.skills_right span{
+			font-size: 0.8em;
+			color: #a2a2a2;
+		}
+		.purchase_button{
+			background-color: transparent;
+			color: #18BA61;
+			border: 3px solid #18BA61;
+			padding: 4px 20px;
+			cursor: pointer;
+		}
+		.purchase_button:hover{
+			background-color: #18BA61;
+			color: white;
+			transition: .5s ease;
+		}
+		.our_team_header h4 span{
+			color: #18BA61;
+		}
+		.our_team_header h4{
+			margin-bottom: 60px;
+		}
+		.teammates img{
+			width: 100%;
+		}
+		.teammates p{
+			color: #a2a2a2;
+			font-size: 0.8em;
+		}
+		.social_hub ul{
+			display: inline;
+			list-style: none;
+		}
+		.social_hub ul li{
+			display: inline-block;
+			margin-right: 15px;
+			color: #a2a2a2; 
+		}
+		.teammate_info{
+			border: 2px solid #E6E9EE;
+			border-top: none !important;
+		}
+		.teammate_info h5, .teammate_info p{
+			margin-left: 10px;
+		}
+		.teammate_info:hover{
+			border:#18BA61;
+			cursor: pointer;
+			background-color: #18BA61;
+			color: white;
+		}
+		.main_footer{
+			color: white;
+			background-color: #013334;
+			height: auto;
+		}
+		.main_footer .col-md-3{
+			margin-top: 30px;
+		}
+		.main_footer .col-md-3 span{
+			color:#18BA61;
+		}
+		.about_footer p{
+			font-size: 0.8em;
+			line-height: 20px;
+		}
+		.about_footer ul{
+			display: inline;
+			font-size: 0.9em;
+		}
+		.tags_buttons p{
+			font-size: 0.8em;
+		}
+		.tags_buttons>div div:hover{
+			cursor: pointer;
+			background-color: #18BA61;
+			color: white;
+		}
+		.popular_tags_footer input{
+			width: 100%;
+			background-color: transparent;
+			border: 1px solid #a2a2a2;
+		}
+		.latest_news_footer img{
+			margin-top: 10px;
+			width: 70px;
+		}
+		.latest_news_footer h6{
+			display: inline;
+		}
+		.latest_news_footer p{
+			font-size: 0.7em;
+		}
+		.latest_works_footer img{
+			
+			width: 70px;
+		}
+		.followus>.social_hub li:hover
+		{
+            color:  #18BA61;
+            transition: 0.7s ease;
+		}
+		.bottom_footer
+		{
+			background-color: #161616;
+
+		}
+		.left_bottom_footer p
+		{
+			color: #484848;
+			font-size: 0.8em;
+			margin-top: 15px;
+		}
+		.right_bottom_footer ul
+		{
+			list-style: none;
+               display: inline;
+		}
+.right_bottom_footer ul li
+{
+	display: inline-block;
+	margin-right: 15px;
+	margin-top: 10px;
+
+
+}
+.right_bottom_footer ul li a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 0.8em;
+}
+.right_bottom_footer ul li a:hover
+{
+	color: #18BA61;
+
+}
+.right_bottom_footer ul li i
+{
+	color:  #18BA61;
+}
+.logo
+{
+	margin-top: 5%;
+}
+.slogan
+{
+	margin-top: 5%;
+}
